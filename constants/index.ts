@@ -31,6 +31,8 @@ import onboarding1 from "@/assets/images/onboarding1.png";
 import onboarding2 from "@/assets/images/onboarding2.png";
 import onboarding3 from "@/assets/images/onboarding3.png";
 import onboarding4 from "@/assets/images/onboarding4.gif";
+import onboarding5 from "@/assets/images/onboarding5.gif";
+import onboarding6 from "@/assets/images/onboarding6.gif";
 import signUpCar from "@/assets/images/signup-car.png";
 
 export const images = {
@@ -38,6 +40,8 @@ export const images = {
     onboarding2,
     onboarding3,
     onboarding4,
+    onboarding5,
+    onboarding6,
     getStarted,
     signUpCar,
     check,
@@ -86,14 +90,14 @@ export const onboarding = [
         title: "Seamless Image Capture/Analysis",
         description:
             "Capture or upload images effortlessly.",
-        image: images.onboarding4,
+        image: images.onboarding5,
     },
     {
         id: 3,
         title: "Track Your Health",
         description:
             "View your diagnosis history and get personalized recommendations for better health with OptiMediX",
-        image: images.onboarding4,
+        image: images.onboarding6,
     },
 ];
 
