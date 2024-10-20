@@ -30,12 +30,14 @@ import noResult from "@/assets/images/no-result.png";
 import onboarding1 from "@/assets/images/onboarding1.png";
 import onboarding2 from "@/assets/images/onboarding2.png";
 import onboarding3 from "@/assets/images/onboarding3.png";
+import onboarding4 from "@/assets/images/onboarding4.gif";
 import signUpCar from "@/assets/images/signup-car.png";
 
 export const images = {
     onboarding1,
     onboarding2,
     onboarding3,
+    onboarding4,
     getStarted,
     signUpCar,
     check,
@@ -77,21 +79,21 @@ export const onboarding = [
         title: "AI-Powered Assessment",
         description:
             "OptiMediX helps you assess eye conditions like cataract and glaucoma",
-        image: images.onboarding1,
+        image: images.onboarding4,
     },
     {
         id: 2,
         title: "Seamless Image Capture/Analysis",
         description:
             "Capture or upload images effortlessly.",
-        image: images.onboarding2,
+        image: images.onboarding4,
     },
     {
         id: 3,
         title: "Track Your Health",
         description:
             "View your diagnosis history and get personalized recommendations for better health with OptiMediX",
-        image: images.onboarding3,
+        image: images.onboarding4,
     },
 ];
 
